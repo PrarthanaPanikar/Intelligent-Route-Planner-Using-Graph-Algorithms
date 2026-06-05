@@ -1,0 +1,21 @@
+# Intelligent Route Planner - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# No external dependencies required for core functionality
+# The project uses only Python standard library:
+# - heapq: Priority queue implementation (Dijkstra's algorithm)
+# - collections: deque for BFS
+# - math: Haversine distance calculation
+# - json: Export routes
+# - csv: Load road network data
+
+# Optional dependencies for visualization and enhancement:
+# networkx==3.0          # Graph algorithms and visualization
+# matplotlib==3.7.0      # Graph plotting
+# folium==0.14.0         # Interactive map visualization
+# geopy==2.3.0           # Geocoding and distance calculations
+
+# Development dependencies:
+# pytest==7.2.0          # Unit testing
+# black==23.1.0          # Code formatting
+# flake8==6.0.0          # Code linting
